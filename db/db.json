@@ -1,0 +1,101 @@
+{
+  "maquinas": {
+    "ids": [
+      {
+        "id": 1,
+        "identificacao": "FR - 1.01"
+      },
+      {
+        "id": 2,
+        "identificacao": "FR - 1.02"
+      },
+      {
+        "id": 3,
+        "identificacao": "FR - 1.03"
+      },
+      {
+        "id": 4,
+        "identificacao": "TR - 2.01"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 1,
+        "tipo": "Centro de Usinagem"
+      },
+      {
+        "id": 2,
+        "tipo": "Torno CNC"
+      },
+      {
+        "id": 3,
+        "tipo": "Fresadora Convencional"
+      },
+      {
+        "id": 4,
+        "tipo": "Retífica"
+      }
+    ],
+    "urgencias": [
+      {
+        "id": 1,
+        "nivel": "Baixa"
+      },
+      {
+        "id": 2,
+        "nivel": "Média"
+      },
+      {
+        "id": 3,
+        "nivel": "Alta"
+      },
+      {
+        "id": 4,
+        "nivel": "Urgente"
+      }
+    ]
+  },
+  "maqProb": [],
+  "maq": [
+    {
+      "id": "0c4c",
+      "nome": "HURCO",
+      "iden": "FR - 1.05",
+      "tipo": "Fresadora CNC",
+      "servico": "DESBASTASSO",
+      "img": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "9b88",
+      "nome": "DMG Deckel Maho",
+      "iden": "FR - 1.03 ",
+      "tipo": "Centro de Usinagem",
+      "servico": "Acabamento",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStf2i_FpJv1giAmdHR4J0ffn55ie5O4PcfRA&s"
+    },
+    {
+      "id": "75f2",
+      "nome": "TC - 650",
+      "iden": "FR - 1.04",
+      "tipo": "Centro de Usinagem",
+      "servico": "Usinagem de Eletrodos",
+      "img": "https://image.made-in-china.com/318f0j00BEIRJKPzZWoZ/1-TC-650-mp4.webp"
+    },
+    {
+      "id": "f8fd",
+      "nome": "Deckel Maho DMU 80 evo",
+      "iden": "FR - 1.02",
+      "tipo": "centro de Usinagem",
+      "servico": "Acabamento",
+      "img": "https://img.interempresas.net/FotosArtProductos/P65270.jpg"
+    },
+    {
+      "id": "5450",
+      "nome": "emerson",
+      "iden": "clovias",
+      "tipo": "asd",
+      "servico": "asdasd",
+      "img": "asdasd"
+    }
+  ]
+}
